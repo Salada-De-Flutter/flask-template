@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+
+.centralizar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+</style>
 <body>
-    oi
+    <h1 class="centralizar">Criar conta</h1>
+    <form action="/mandar" method="POST" class="centralizar">
+        <input type="text" name="usuario" placeholder="Digite seu usuario">
+        <input type="text" name='senha' placeholder="Digite sua senha">
+        <input type="submit" name="" id="" value="Enviar">
+    </form>
 </body>
 </html>
